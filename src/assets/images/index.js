@@ -1,0 +1,6 @@
+export {default as Wagenor} from './wagenor.jpeg'
+export {default as alto} from './alto.jpeg'
+export {default as hondacity} from './hondacity.jpeg'
+export {default as i20} from './i20.jpeg'
+export {default as verna} from './verna.jpeg'
+export {default as maruti} from './maruti800.jpeg'

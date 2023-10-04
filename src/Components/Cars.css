@@ -1,0 +1,53 @@
+.card-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+    gap: 20px; /* Adjust the gap between cards as needed */
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1); /* Background color with opacity */
+    /* filter: blur(5px); */
+    backdrop-filter: blur(5px);
+  }
+  
+  /* Add more CSS styles to customize the appearance of your cards */
+  .border-radius{
+    border-radius: 10%;
+  }
+
+  .card-header{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .features{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+
+    flex-wrap: wrap;
+  }
+
+  .cardbody{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+  }
+
+  .table-row{
+    display: flex;
+    gap: 8px;
+    font-weight: bolder;
+    justify-content: center;
+  }
+
+  .card-base{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
